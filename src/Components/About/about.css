@@ -1,0 +1,16 @@
+.rogelio{
+        height: 500px;
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+} 
+
+@media (max-width: 990px) {
+    .rogelio {
+        align-items: flex-start;
+        background-color: yellow;
+    }
+
+ }
