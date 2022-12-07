@@ -25,20 +25,20 @@ function Form() {
         const consulta = e.target.consulta.value;
         
        
-        // const regexEmail = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        const regexEmail = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
         if(nombre === "" || email === "" || consulta === ""){
             alert("Los campos no pueden estar vacios")
             return;
-        }else{createFormFirestore(formData).then(alert("OK!"))
+        }else if(email !== "" && !regexEmail.test(email)){
+            alert("Email no valido");
+            return;
+        }else{createFormFirestore(formData).then(alert("Su consulta ha sido enviada"))
 
         }
 
-        // if(email !== "" && !regexEmail.test(email)){
-        //     alert("Email no valido");
-        //     return;
-        // }
-        console.log(formData)
+        
+        
 
     }
 
@@ -59,7 +59,7 @@ function Form() {
         <div className="form-group mx-auto">
             <label >Escriba su consulta:</label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name="consulta" value={formData.consulta} onChange={onInputChange}></textarea>
-            <button type="submit" className="btn btn-dark mx-auto" onSubmit={createFormFirestore}>Enviar</button>
+            <button type="submit" className="btn btn-dark mx-auto mt-2" onSubmit={createFormFirestore}>Enviar</button>
         </div>
         
     </form>

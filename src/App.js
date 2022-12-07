@@ -1,6 +1,6 @@
 import NavBar from "./Components/NavBar/NavBar";
 import About from "./Components/About/About";
-// import Form from "./Components/Form/Form";
+import Proyectos from "./Components/Proyectos/Proyectos";
 import Footer from "./Components/Footer/Footer";
 
 
@@ -12,14 +12,11 @@ function App() {
     <>    
     <BrowserRouter>
     <NavBar/>
-    <About/>
+    
     <Routes>
-    <Route path="/" />  
-    <Route path="/demi" />  
-    <Route path="/trabajos" />  
-    <Route path="/contacto" />  
+    <Route path="/" element={<About/> } />  
+    <Route path="/proyectos"  element={<Proyectos/>} />  
     </Routes>
-    {/* <Form/> */}
     <Footer/>
     </BrowserRouter>
     </>

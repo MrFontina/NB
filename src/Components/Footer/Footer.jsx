@@ -6,8 +6,8 @@ function Footer(){
     return(
         <footer className="foot">
             <nav className="navbar navbar-light bg-light">
-                <div className='logos container-fluid'>
-                    <div className='mx-auto'>
+                <div className='logos container-fluid '>
+                    <div className=''>
                       <a href='https://github.com/MrFontina'><img src={git} alt='gitHub' style={{width:'40px'}}/>
                     </a>       
                     <a href='https://linkedin.com/in/nahuel-bracchitta'>
