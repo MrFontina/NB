@@ -1,5 +1,5 @@
 .headerRight{
-        height: 500px;
+        height: 700px;
         background-color: red;
         display: flex;
         flex-direction: row;
@@ -11,6 +11,8 @@
     .headerRight {
         align-items: flex-start;
         background-color: yellow;
+        height: 500px;
+        
     }
 
  }
