@@ -33,9 +33,9 @@ function NavBar() {
   return (
     
     
-<nav className="navBarClass navbar navbar-expand-lg bg-light " style={{height:"75px"}}>
-  <div className="container-fluid ">
-    <Link className="navbar-brand" to="/">NAHUEL BRACCHITTA</Link>
+<nav className="navBarClass navbar navbar-expand-lg " style={{ backgroundColor: darkMode ? "grey" : "lightblue", height: "75px"}}>
+  <div className="container-fluid" >
+    <Link className="navbar-brand" style={{ color: darkMode? "white" : "black"}} to="/">NAHUEL BRACCHITTA</Link>
     <label>
     <button className="dark-mode-toggle" onClick={() => setDarkMode(!darkMode)}> 
     <div className="dark-mode-slider" >{darkMode ? "🌙" : "🔆"}</div>
@@ -46,8 +46,8 @@ function NavBar() {
     </button>
     <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <Link to="/" className="nav-link active" aria-current="page" >Home</Link>
-        <Link to="/proyectos" className="nav-link" >Proyectos</Link>
+        <Link to="/" className="nav-link active" style={{ color: darkMode? "white" : "black"}} aria-current="page" >Home</Link>
+        <Link to="/proyectos" className="nav-link" style={{ color: darkMode? "white" : "black"}}>Proyectos</Link>
         {/* <Link className="nav-link" >Pricing</Link> */}
         {/* <Link className="nav-link disabled">Disabled</Link> */}
       </div>
