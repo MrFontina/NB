@@ -1,0 +1,32 @@
+.modo {
+    display: flex;
+   
+}
+
+
+.dark-mode-toggle {
+    width: 80px;
+    height: 36px;
+    border-radius: 50px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    
+  }
+  .dark-mode-toggle svg {
+    fill: #000;
+  }
+  .dark-mode-slider {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #2e3440;
+    display: flex;
+    position: relative;
+    transform: translateX(0px);
+    transition: all 0.2s ease;
+  }
+  
+  .dark .dark-mode-slider {
+    transform: translateX(45px);
+  }
