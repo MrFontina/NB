@@ -5,7 +5,7 @@
 
 
 .dark-mode-toggle {
-    width: 80px;
+    width: 40px;
     height: 36px;
     border-radius: 50px;
     top: 0;
@@ -27,6 +27,6 @@
     transition: all 0.2s ease;
   }
   
-  .dark .dark-mode-slider {
+  /* .dark .dark-mode-slider {
     transform: translateX(45px);
-  }
+  } */

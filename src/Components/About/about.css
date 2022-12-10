@@ -5,8 +5,8 @@
     align-items: center;
     background-color:pink;
     text-align:center;
-    padding-top: 30px;
-    height:700px
+    height:700px;
+    padding: 40px;
 }
 
 .headerRight{

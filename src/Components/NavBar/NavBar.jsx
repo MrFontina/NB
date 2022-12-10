@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import './navBar.css'
+import themeContext from "../../Storage/ThemeContext";
 
 
 
@@ -8,6 +9,7 @@ function NavBar() {
 
 
   const [darkMode, setDarkMode] = useState(false)
+  const { darkColor1 } = useContext(themeContext)
 
   useEffect(() => {
     const json = localStorage.getItem("site-dark-mode");
@@ -33,7 +35,7 @@ function NavBar() {
   return (
     
     
-<nav className="navBarClass navbar navbar-expand-lg " style={{ backgroundColor: darkMode ? "grey" : "lightblue", height: "75px"}}>
+<nav className="navBarClass navbar navbar-expand-lg " style={{backgroundColor:"pink", height: "75px"}}>
   <div className="container-fluid" >
     <Link className="navbar-brand" style={{ color: darkMode? "white" : "black"}} to="/">NAHUEL BRACCHITTA</Link>
     <label>
