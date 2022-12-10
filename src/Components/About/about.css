@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:pink;
+    background:linear-gradient(90deg, rgba(17,17,19,1) 0%, rgba(0,0,0,0.9304096638655462) 100%, rgba(14,4,4,0.9836309523809523) 100%);
     text-align:center;
     height:700px;
     padding: 40px;

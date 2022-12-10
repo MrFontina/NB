@@ -9,7 +9,7 @@ function NavBar() {
 
 
   const [darkMode, setDarkMode] = useState(false)
-  const { darkColor1 } = useContext(themeContext)
+  const { darkColor1, darkColor2 } = useContext(themeContext)
 
   useEffect(() => {
     const json = localStorage.getItem("site-dark-mode");
@@ -23,7 +23,7 @@ function NavBar() {
 
 
   useEffect(()=>{
-    if(darkMode){
+    if(!darkMode){
       document.body.classList.add("dark");
     }else{
       document.body.classList.remove("dark");
@@ -35,9 +35,9 @@ function NavBar() {
   return (
     
     
-<nav className="navBarClass navbar navbar-expand-lg " style={{backgroundColor:"pink", height: "75px"}}>
+<nav className="navBarClass navbar navbar-expand-lg " style={{backgroundColor: darkMode? darkColor1 : darkColor2, height: "75px"}}>
   <div className="container-fluid" >
-    <Link className="navbar-brand" style={{ color: darkMode? "white" : "black"}} to="/">NAHUEL BRACCHITTA</Link>
+    <Link className="navbar-brand" style={{ color: darkMode? "black" : "white"}} to="/">NAHUEL BRACCHITTA</Link>
     <label>
     <button className="dark-mode-toggle" onClick={() => setDarkMode(!darkMode)}> 
     <div className="dark-mode-slider" >{darkMode ? "🌙" : "🔆"}</div>
@@ -48,10 +48,9 @@ function NavBar() {
     </button>
     <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <Link to="/" className="nav-link active" style={{ color: darkMode? "white" : "black"}} aria-current="page" >Home</Link>
-        <Link to="/proyectos" className="nav-link" style={{ color: darkMode? "white" : "black"}}>Proyectos</Link>
-        {/* <Link className="nav-link" >Pricing</Link> */}
-        {/* <Link className="nav-link disabled">Disabled</Link> */}
+        <Link to="/" className="nav-link active" style={{ color: darkMode? "black" : "white"}} aria-current="page" >Home</Link>
+        <Link to="/proyectos" className="nav-link" style={{ color: darkMode? "black" : "white"}}>Proyectos</Link>
+        <Link to="/contacto" className="nav-link" style={{ color: darkMode? "black" : "white"}}>Contacto</Link>
       </div>
     </div>
   </div>

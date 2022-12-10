@@ -38,7 +38,6 @@ function About() {
             </div>
         </div>   
     </div>
-    <Form/>
     </div>
   )
 }
