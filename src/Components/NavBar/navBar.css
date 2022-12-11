@@ -1,3 +1,7 @@
+.navBarClass{
+  border-bottom: 1px solid #454854;
+}
+
 .modo {
     display: flex;
    
@@ -5,9 +9,10 @@
 
 
 .dark-mode-toggle {
-    width: 40px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     border-radius: 50px;
+    border: none;
     top: 0;
     left: 0;
     background-color: transparent;
@@ -27,6 +32,3 @@
     transition: all 0.2s ease;
   }
   
-  /* .dark .dark-mode-slider {
-    transform: translateX(45px);
-  } */

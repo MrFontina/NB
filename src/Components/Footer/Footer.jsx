@@ -6,11 +6,11 @@ import linkedin from './linkedin.png'
 
 function Footer(){
 
-    const { gradient51 } = useContext(themeContext)
+    const { darkMode, gradient51 } = useContext(themeContext)
 
     return(
         <footer className="foot">
-            <nav className="navbar navbar-light" style={{background:gradient51}}>
+            <nav className="navbar navbar-light" style={{background: darkMode? gradient51 : "#272935"}}>
                 <div className='logos container-fluid '>
                     <div className=''>
                       <a href='https://github.com/MrFontina'><img src={git} alt='gitHub' style={{width:'40px'}}/>
