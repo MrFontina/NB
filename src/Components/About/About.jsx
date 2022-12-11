@@ -1,4 +1,4 @@
-import Form from "../Form/Form"
+// import Form from "../Form/Form"
 
 import "./about.css"
 import image from "./perfil.jpg"

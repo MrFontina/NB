@@ -1,6 +1,8 @@
 import Card from "../Card/Card"
 import { useContext } from "react"
 import themeContext from "../../Storage/ThemeContext"
+// import image1 from "./1.png"
+import gif1  from "./musicstore.gif"
 
 
 function Proyectos() {
@@ -10,9 +12,13 @@ function Proyectos() {
   return (
     <>
     <h2 style={{backgroundColor:darkColor3}}>Proyectos:</h2>
-    <div>
-    <Card title="Sarlanga"/>
+    <div className="container-fluid d-flex flex-wrap mt-5" style={{height:"1200px"}}>
+    <Card title="Sarlanga"
+          src={gif1}
+          poptitle="Here i am"
+          about="Thank to pop me out of that button, but now i'm done so you can close this window."/>
     <Card title="Soruyo"/>
+    <Card title="Patente"/>
     </div>
     </>
     

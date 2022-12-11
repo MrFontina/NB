@@ -1,28 +1,44 @@
 .box {
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
-    background: rgba(255,255,255,0.2);
+    /* background: rgba(255,255,255,0.2); */
+    background-color: blue;
     padding: 35px;
     border: 2px solid #fff;
-    border-radius: 20px/50px;
+    border-radius: 50px/50px;
     background-clip: padding-box;
     text-align: center;
+    transition: 0.5s;
+    height: 300px;
+    
+    
   }
   
-  /* .button {
+  .box:hover{
+    transform: translateY(0) scale(1.2);
+  }
+
+
+
+  .button {
     font-size: 1em;
     padding: 10px;
     color: #fff;
     border: 2px solid #06D85F;
-    border-radius: 20px/50px;
+    border-radius: 50%;
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
+    width:25%;
+    
   }
   .button:hover {
     background: #06D85F;
   }
-   */
+  
+
+   
+
   .overlay {
     position: fixed;
     top: 0;
@@ -30,20 +46,29 @@
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
-    /* visibility: hidden;
+   
+    /* transition: opacity 500ms;
+    visibility: hidden;
     opacity: 0; */
   }
-
+  /* .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  } */
   
   .popup {
-    margin: 70px auto;
+    height: 380px;
+    margin: 130px auto;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
-    width: 30%;
+    width: 50%;
     position: relative;
-    transition: all 5s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+
+  .popup img{
+    width: 80%;
   }
   
   .popup h2 {
@@ -51,7 +76,12 @@
     color: #333;
     font-family: Tahoma, Arial, sans-serif;
   }
-  /* .popup .close {
+
+  .content p{
+    text-align: center;
+  }
+
+  .popup .close {
     position: absolute;
     top: 20px;
     right: 30px;
@@ -60,14 +90,16 @@
     font-weight: bold;
     text-decoration: none;
     color: #333;
-  } */
-  /* .popup .close:hover {
+    background: none;
+    border: none;
+  }
+  .popup .close:hover {
     color: #06D85F;
   }
   .popup .content {
     max-height: 30%;
     overflow: auto;
-  } */
+  }
   
   @media screen and (max-width: 700px){
     .box{
@@ -77,3 +109,5 @@
       width: 70%;
     }
   }
+  
+ 

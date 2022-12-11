@@ -2,15 +2,7 @@ import "./card.css"
 import { useState } from "react"
 
 
-function Card(props){
-
-    // const hidePop = {
-    //     transition: "opacity 500ms",
-    //     visibility: "hidden",
-    //     opacity:"0",
-    // }
-
-     
+function Card(props){     
 
     const [ cardState, setCardState ] = useState(true);
 
@@ -25,17 +17,22 @@ function Card(props){
 
     return(
         <>
-        <div className="box">
-        <button onClick={cardSwitch}>xxxx</button>
-	    {/* <a className="button" href="#popup1">Titulo:{props.title}</a> */}
+        <div className="box d-flex flex-column">
+        <h2>{props.title}</h2>
+        <img src={props.src} alt=""></img>
+        <button className="button mt-auto mx-auto" onClick={cardSwitch}>xxxx</button>
         </div>
         <div id="popup1" className="overlay" style={{display: cardState? "none" : null}}>
-	    <div className="popup">
-		<h2>Here i am</h2>
-		<button onClick={cardSwitch}>x</button>
+	    <div className="popup d-flex flex-column align-items-center">
+		<h2>{props.poptitle}</h2>
+		<button className="close" onClick={cardSwitch}>&times;</button>
 		<div className="content">
-			Thank to pop me out of that button, but now i'm done so you can close this window.
+            <p>
+                {props.about}
+            </p>
+			
 		</div>
+        <img src={props.src} alt=""></img>
 	    </div>
         </div>
         </>
