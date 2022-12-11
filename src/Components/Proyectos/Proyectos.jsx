@@ -21,9 +21,10 @@ function Proyectos() {
     <div className="container-fluid d-flex flex-wrap " style={{height:"1900px", background: darkMode? gradient45 : darkest}}>
     <Card title="React Ecommerce"
           img={image1}
-          poptitle="Here i am"
-          about="Thank to pop me out of that button, but now i'm done so you can close this window."
+          poptitle="React Commerce"
+          about="Proyecto final para el curso de React JS. El objeto fue hacer un Ecommerce, con un carrito totalmente funcional, y que se genere una orden de compra que se envie a una base de datos (Firebase). No se tuvo en cuenta los estilos."
           gif={gif1}
+          link="https://reactecommercebracchitta.netlify.app/"
           />
           
     <Card title="Soruyo"/>
