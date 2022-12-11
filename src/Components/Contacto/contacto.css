@@ -1,3 +1,21 @@
-.aja{
-    background: linear-gradient(to bottom, blue, white);
+.contacto{
+    height: 1500px;
+    text-align:center;
+    padding: 60px;
+    margin-bottom: auto
+}
+
+.contactoTitle{
+    height: 250px;
+}
+
+.contactoTitle p {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+@media (max-width: 470px){
+    .contactoTitle{
+        height: 300px;
+    }
 }
