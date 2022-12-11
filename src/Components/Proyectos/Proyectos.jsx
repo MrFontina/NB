@@ -2,6 +2,8 @@ import Card from "../Card/Card"
 import { useContext } from "react"
 import themeContext from "../../Storage/ThemeContext"
 import image1 from "./1.png"
+import image2 from "./2.png"
+import image3 from "./3.png"
 import gif1 from "./musicstore.gif"
 import "./proyectos.css"
 
@@ -26,9 +28,24 @@ function Proyectos() {
           gif={gif1}
           link="https://reactecommercebracchitta.netlify.app/"
           />
+
+    <Card title="JS Ecommerce"
+          img={image2}
+          poptitle="JS Ecommerce"
+          about="Proyecto final para el curso de JavaScript."
+          gif={image2}
+          link="https://jsecommersebracchitta.netlify.app/"
+
+    />
           
-    <Card title="Soruyo"/>
-    <Card title="Patente"/>
+    <Card title="Music Biographie"
+          img={image3}
+          poptitle="Music Biographie"
+          about="Proyecto final para el curso de desarrollo web. Se utilizó HTML5, CSS3, Bootstrap y SASS."
+          gif={image3}
+          link="https://nahuelbracchitta.netlify.app/index.html"
+    />
+    
     </div>
       
 

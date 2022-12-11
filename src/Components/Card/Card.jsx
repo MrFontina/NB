@@ -26,8 +26,8 @@ function Card(props){
         <h2>{props.title}</h2>
         <img src={props.img} alt="" className="cardImg"></img>
         </div>        
-         <div id="popup1" className="overlay" style={{display: cardState? "none" : null}}>
-	    <div className="popup d-flex flex-column align-items-center">
+         <div id="popup1" className="overlay" style={{display: cardState? "none" : null, }}>
+	    <div className="popup d-flex flex-column align-items-center" style={{backgroundColor: darkMode? "lightblue" : "lightgrey"}}>
 		<h2>{props.poptitle}</h2>
 		<button className="close" onClick={cardSwitch}>&times;</button>
 		<div className="content">
