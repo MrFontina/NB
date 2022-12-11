@@ -4,7 +4,9 @@
 }
 
 @media (min-width: 990px){
-    
+    .headerLeft{
+        justify-content: center;
+    }
 }
 
 .headerLeft{

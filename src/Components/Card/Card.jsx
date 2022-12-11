@@ -17,10 +17,10 @@ function Card(props){
 
     return(
         <>
-        <div className="box d-flex flex-column">
+        <div className="box d-flex flex-column cardContainer"  onClick={cardSwitch}>
         <h2>{props.title}</h2>
-        <img src={props.src} alt=""></img>
-        <button className="button mt-auto mx-auto" onClick={cardSwitch}>xxxx</button>
+        <img src={props.img} alt=""></img>
+        {/* <button className="button mt-auto mx-auto" onClick={cardSwitch}>xxxx</button> */}
         </div>
         <div id="popup1" className="overlay" style={{display: cardState? "none" : null}}>
 	    <div className="popup d-flex flex-column align-items-center">
@@ -29,10 +29,9 @@ function Card(props){
 		<div className="content">
             <p>
                 {props.about}
-            </p>
-			
+            </p>			
 		</div>
-        <img src={props.src} alt=""></img>
+        <img src={props.gif} alt=""></img>
 	    </div>
         </div>
         </>

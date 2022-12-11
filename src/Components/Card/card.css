@@ -1,10 +1,29 @@
+.cardContainer{
+  cursor: pointer;
+  
+  
+}
+
+
+.box{
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  overflow: hidden;
+  height: 350px;
+  width: 300px;
+  
+}
+
 .box {
     width: 30%;
     margin: 0 auto;
-    /* background: rgba(255,255,255,0.2); */
-    background-color: blue;
+    
+    background-color: darkgray;
     padding: 35px;
-    border: 2px solid #fff;
+    
+    
     border-radius: 50px/50px;
     background-clip: padding-box;
     text-align: center;
@@ -16,11 +35,12 @@
   
   .box:hover{
     transform: translateY(0) scale(1.2);
+    transform: scale(1.08) rotate(6deg);
   }
 
 
 
-  .button {
+  /* .button {
     font-size: 1em;
     padding: 10px;
     color: #fff;
@@ -34,7 +54,7 @@
   }
   .button:hover {
     background: #06D85F;
-  }
+  } */
   
 
    
