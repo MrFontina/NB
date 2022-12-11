@@ -17,11 +17,11 @@ function About() {
   return (
   <div>
     <div className="container.fluid">
-        <div className="pt-4" style={{textAlign:"center", height:"130px", background:gradient34}}>
+        <div className="pt-4" style={{textAlign:"center", height:"177px", background:gradient34}}>
               <h2>NAHUEL BRACCHITTA</h2>
               <h4>FrontEnd Developer</h4>
         </div> 
-        <div className="row flex-wrap" style={{background:gradient45}}>                   
+        <div className="row flex-wrap aboutContainer" style={{background:gradient45}}>                   
             <div className="headerLeft col-lg-7 col-12">
                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni deserunt dolor facere quam quis reprehenderit corrupti. Impedit architecto quis ducimus ad est non cum harum, sit, molestiae tempora itaque at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit voluptates fuga quo dolores consequatur dicta quos, rerum voluptatum saepe molestiae modi ipsa illum eaque non assumenda similique excepturi nobis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, nostrum reiciendis. Corrupti harum culpa eos. Ut aperiam repellendus esse dolore fugiat laborum nihil in, quo, cupiditate dicta repellat illum distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia autem, temporibus aperiam, dolore ullam dolorem quo suscipit nostrum nobis ab eius saepe pariatur tempora a rerum, cupiditate facere laborum dolorum!<br></br>
               <div className="icons d-flex p-4">
