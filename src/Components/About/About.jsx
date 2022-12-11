@@ -17,7 +17,7 @@ function About() {
   return (
   <div>
     <div className="container.fluid">
-        <div className="pt-4" style={{textAlign:"center", height:"177px", background: darkMode? gradient34 : darkest}}>
+        <div className="title" style={{textAlign:"center", height:"177px", background: darkMode? gradient34 : darkest}}>
               <h2>NAHUEL BRACCHITTA</h2>
               <h4>FrontEnd Developer</h4>
         </div> 
