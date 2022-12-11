@@ -8,14 +8,36 @@ export function ThemeContextProvider(props){
     const darkColor2 = "#5c5470"
     const darkColor3 = "#352f44"
     const darkColor4 = "#2a2438"
+
+    const light1 = "#8EA4C8"
+    const light2 = "#C3B8AA"
+    const light3 = "#DEDCE4"
+    const light4 = "#DB98A5"
+    const light5 = "#C7CDC5"
    
-    
+    const gradient13 = "linear-gradient(to bottom, #8EA4C8, #DEDCE4)";
+    const gradient34 = "linear-gradient(to bottom, #DEDCE4, #DB98A5)";
+    const gradient35 =  "linear-gradient(to bottom, #DEDCE4, #C7CDC5)"; 
+    const gradient45 = "linear-gradient(to bottom, #DB98A5, #C7CDC5)";
+    const gradient51 = "linear-gradient(to bottom, #C7CDC5, #8EA4C8)";
+
 
     const value = {
         darkColor1,
         darkColor2,
         darkColor3,
-        darkColor4
+        darkColor4,
+        light1,
+        light2,
+        light3,
+        light4,
+        light5,
+        gradient13,
+        gradient34,
+        gradient35,
+        gradient45,
+        gradient51
+
 
         
     };

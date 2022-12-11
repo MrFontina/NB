@@ -9,7 +9,9 @@ function NavBar() {
 
 
   const [darkMode, setDarkMode] = useState(false)
-  const { darkColor1, darkColor2 } = useContext(themeContext)
+  const { darkColor1, gradient13  } = useContext(themeContext)
+
+ 
 
   useEffect(() => {
     const json = localStorage.getItem("site-dark-mode");
@@ -35,7 +37,7 @@ function NavBar() {
   return (
     
     
-<nav className="navBarClass navbar navbar-expand-lg " style={{backgroundColor: darkMode? darkColor1 : darkColor2, height: "75px"}}>
+<nav className="navBarClass navbar navbar-expand-lg " style={{background: darkMode? gradient13 : darkColor1, height: "75px"}}>
   <div className="container-fluid" >
     <Link className="navbar-brand" style={{ color: darkMode? "black" : "white"}} to="/">NAHUEL BRACCHITTA</Link>
     <label>

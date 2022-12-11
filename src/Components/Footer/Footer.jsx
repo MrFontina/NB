@@ -1,11 +1,16 @@
+import { useContext } from 'react'
+import themeContext from '../../Storage/ThemeContext'
 import './footer.css'
 import git from './github.png'
 import linkedin from './linkedin.png'
 
 function Footer(){
+
+    const { gradient51 } = useContext(themeContext)
+
     return(
         <footer className="foot">
-            <nav className="navbar navbar-light bg-light">
+            <nav className="navbar navbar-light" style={{background:gradient51}}>
                 <div className='logos container-fluid '>
                     <div className=''>
                       <a href='https://github.com/MrFontina'><img src={git} alt='gitHub' style={{width:'40px'}}/>

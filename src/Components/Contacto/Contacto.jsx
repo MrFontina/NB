@@ -1,12 +1,14 @@
 import Form from "../Form/Form";
+import "./contacto.css"
 
 function Contacto() {
 
     return(
-       <>
-    <h2>Contacto</h2>
-    <Form/>
-    </> 
+    <div className="aja">
+       <h2>Contacto</h2>
+    <Form/> 
+    </div>
+   
     )
     
 }
