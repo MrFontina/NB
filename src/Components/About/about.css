@@ -1,6 +1,9 @@
 .title{
     padding: 60px;
     
+    
+    
+    
 }
 
 @media (min-width: 990px){
@@ -16,6 +19,9 @@
     align-items: center;
     padding-top: 34px;
     text-align:center;
+    
+    font-size: 20px;
+    
     
     
 }

@@ -17,7 +17,7 @@ function Proyectos() {
     <>
     <div className="proyectos" style={{background: darkMode? gradient34 : darkest}}>
       <h2>PROYECTOS:</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae ratione praesentium velit, nobis alias totam natus id neque asperiores, animi dignissimos cum, laborum cumque? Molestias fugiat architecto maxime aliquam dolore.</p>
+    <p>Estas fueron mis primeras experiencias aprendiendo a desarrollar. Pronto subiré proyectos nuevos.</p>
     </div>
     
     <div className="container-fluid d-flex flex-wrap " style={{height:"1900px", background: darkMode? gradient45 : darkest}}>
@@ -38,9 +38,9 @@ function Proyectos() {
 
     />
           
-    <Card title="Music Biographie"
+    <Card title="Music Biography"
           img={image3}
-          poptitle="Music Biographie"
+          poptitle="Music Biography"
           about="Proyecto final para el curso de desarrollo web. Se utilizó HTML5, CSS3, Bootstrap y SASS."
           gif={image3}
           link="https://nahuelbracchitta.netlify.app/index.html"

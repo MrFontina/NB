@@ -13,7 +13,7 @@ function NavBar() {
   return (
 
 
-    <nav className="navBarClass navbar navbar-expand-lg " style={{ background: darkMode ? gradient13 : "#272935", height: "75px" }}>
+    <nav className="navBarClass navbar navbar-expand-lg " style={{ background: darkMode ? gradient13 : "#272935", height: "75px",  }}>
       <div className="container-fluid" >
         <Link className="navbar-brand" style={{ color: darkMode ? "black" : "white" }} to="/">NAHUEL BRACCHITTA</Link>
         <label>

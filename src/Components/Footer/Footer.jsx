@@ -19,7 +19,7 @@ function Footer(){
                       <img src={linkedin} alt='linkedin' style={{width:'40px'}}/>  
                     </a>  
                     </div>
-                    <span className="navbar-brand mb-0 mx-auto h1">Copiright Nahuel Bracchitta</span>
+                    <span className="navbar-brand mb-0 mx-auto h1" style={{color: darkMode? "black" : "white"}}>Copiright Nahuel Bracchitta</span>
                     
                 </div>
                 

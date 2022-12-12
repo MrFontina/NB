@@ -18,12 +18,12 @@ function About() {
   <div>
     <div className="container.fluid">
         <div className="title" style={{textAlign:"center", height:"177px", background: darkMode? gradient34 : darkest}}>
-              <h2>NAHUEL BRACCHITTA</h2>
-              <h4>FrontEnd Developer</h4>
+              <h2 >NAHUEL BRACCHITTA</h2>
+              <h4 >FrontEnd Developer</h4>
         </div> 
         <div className="row flex-wrap aboutContainer" style={{background: darkMode? gradient45 : darkest}}>                   
             <div className="headerLeft col-lg-7 col-12">
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni deserunt dolor facere quam quis reprehenderit corrupti. Impedit architecto quis ducimus ad est non cum harum, sit, molestiae tempora itaque at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit voluptates fuga quo dolores consequatur dicta quos, rerum voluptatum saepe molestiae modi ipsa illum eaque non assumenda similique excepturi nobis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, nostrum reiciendis. Corrupti harum culpa eos. Ut aperiam repellendus esse dolore fugiat laborum nihil in, quo, cupiditate dicta repellat illum distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia autem, temporibus aperiam, dolore ullam dolorem quo suscipit nostrum nobis ab eius saepe pariatur tempora a rerum, cupiditate facere laborum dolorum!<br></br>
+               Hola! Con este sitio lanzo mi carrera como desarrollador Frontend. Es el primer proyecto que construyo desde cero por mi mismo. Las herramientas que actualmente manejo son: html5, css3, javascript, reactjs, sass y bootstrap. Estoy muy entusiasmado por seguir desarrollando!! Pueden entrar a mi repositorio de GitHub, y en la sección proyectos voy subiendo todo lo que voy trabajando. Estoy abierto a recibir sugerencias, por favor dejame tu comentario o consulta.<br></br>
               <div className="icons d-flex p-4">
                 <img src={htmlIcon} style={{height:'50px', margin:'10px'}} alt=""/>
                 <img src={cssIcon}  style={{height:'50px', margin:'10px'}}  alt=""/>

@@ -54,7 +54,7 @@ function Form() {
         <div className="form-group mx-auto">
             <label >Email:</label>
             <input type="text" placeholder="Ingrese su email" className="form-control" name="email" value={formData.email} onChange={onInputChange}/>
-            <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+            <small id="emailHelp" className="form-text text-muted">Para una respuesta más rápida escribir a: nahuelbracchitta@gmail.com</small>
         </div>
         <div className="form-group mx-auto">
             <label >Escriba su consulta:</label>

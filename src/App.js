@@ -1,3 +1,5 @@
+import './index.css'
+
 import NavBar from "./Components/NavBar/NavBar";
 import About from "./Components/About/About";
 import Proyectos from "./Components/Proyectos/Proyectos";

@@ -7,7 +7,7 @@ import themeContext from "../../Storage/ThemeContext";
 
 function Card(props){     
 
-    const { darkMode } = useContext(themeContext)
+    const { darkMode, gradient51 } = useContext(themeContext)
 
     const [ cardState, setCardState ] = useState(true);
 
@@ -22,7 +22,7 @@ function Card(props){
 
     return(
         <>
-        <div className="box d-flex flex-column"  onClick={cardSwitch} style={{backgroundColor: darkMode? "lightblue" : "lightgrey"}}>
+        <div className="box d-flex flex-column"  onClick={cardSwitch} style={{background: darkMode? gradient51 : "lightgrey"}}>
         <h2>{props.title}</h2>
         <img src={props.img} alt="" className="cardImg"></img>
         </div>        

@@ -11,7 +11,7 @@ function Contacto() {
     <div className="contacto" style={{background: darkMode? gradient34 : darkest}}>
         <div className="contactoTitle">
            <h2>CONTACTO</h2> 
-           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa debitis accusamus corporis amet ipsam, eligendi doloribus! Culpa quas libero fuga, accusamus corrupti inventore temporibus iure, a illum aspernatur et dolor.</p>
+           <p>Dejame tu mensaje por cualquier propuesta, o sugerencia!</p>
         </div>
        
     <Form/> 
