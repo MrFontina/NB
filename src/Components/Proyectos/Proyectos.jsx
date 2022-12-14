@@ -1,11 +1,13 @@
 import Card from "../Card/Card"
 import { useContext } from "react"
 import themeContext from "../../Storage/ThemeContext"
-import image1 from "./1.png"
-import image2 from "./2.png"
-import image3 from "./3.png"
 import gif1 from "./musicstore.gif"
+import gif2 from "./juan.gif"
+import gif3 from "./nbgif.gif"
 import "./proyectos.css"
+import image4 from "./e1.png"
+import image5 from "./e2.png"
+import image6 from "./e3.png"
 
 
 
@@ -22,27 +24,27 @@ function Proyectos() {
     
     <div className="container-fluid d-flex flex-wrap " style={{height:"1900px", background: darkMode? gradient45 : darkest}}>
     <Card title="React Ecommerce"
-          img={image1}
+          img={image4}
           poptitle="React Commerce"
-          about="Proyecto final para el curso de React JS. El objeto fue hacer un Ecommerce, con un carrito totalmente funcional, y que se genere una orden de compra que se envie a una base de datos (Firebase). No se tuvo en cuenta los estilos."
+          about="Proyecto final para el curso de React JS. El objeto fue hacer un Ecommerce, con un carrito totalmente funcional, y que se genere una orden de compra que se envie a una base de datos (Firebase). No se tuvo en cuenta los estilos. No es responsive."
           gif={gif1}
           link="https://reactecommercebracchitta.netlify.app/"
           />
 
     <Card title="JS Ecommerce"
-          img={image2}
+          img={image5}
           poptitle="JS Ecommerce"
-          about="Proyecto final para el curso de JavaScript."
-          gif={image2}
+          about="Proyecto final para el curso de JavaScript. No se tuvo en cuenta los estilos. No es responsive."
+          gif={gif2}
           link="https://jsecommersebracchitta.netlify.app/"
 
     />
           
     <Card title="Music Biography"
-          img={image3}
+          img={image6}
           poptitle="Music Biography"
-          about="Proyecto final para el curso de desarrollo web. Se utilizó HTML5, CSS3, Bootstrap y SASS."
-          gif={image3}
+          about="Proyecto final para el curso de desarrollo web. Se utilizó HTML5, CSS3, Bootstrap y SASS. Es un sitio totalmente responsive."
+          gif={gif3}
           link="https://nahuelbracchitta.netlify.app/index.html"
     />
     

@@ -25,6 +25,7 @@ function Card(props){
         <div className="box d-flex flex-column"  onClick={cardSwitch} style={{background: darkMode? gradient51 : "lightgrey"}}>
         <h2>{props.title}</h2>
         <img src={props.img} alt="" className="cardImg"></img>
+        <button type="button" class="btn btn-success">Ver más</button>
         </div>        
          <div id="popup1" className="overlay" style={{display: cardState? "none" : null, }}>
 	    <div className="popup d-flex flex-column align-items-center" style={{backgroundColor: darkMode? "lightblue" : "lightgrey"}}>
