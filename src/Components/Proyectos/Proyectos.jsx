@@ -22,7 +22,7 @@ function Proyectos() {
     <p>Estas fueron mis primeras experiencias aprendiendo a desarrollar. Pronto subiré proyectos nuevos.</p>
     </div>
     
-    <div className="container-fluid d-flex flex-wrap " style={{height:"1900px", background: darkMode? gradient45 : darkest}}>
+    <div className="container-fluid d-flex flex-wrap containerProyectos" style={{background: darkMode? gradient45 : darkest}}>
     <Card title="React Ecommerce"
           img={image4}
           poptitle="React Commerce"

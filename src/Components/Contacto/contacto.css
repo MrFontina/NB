@@ -1,12 +1,12 @@
 .contacto{
-    height: 1500px;
+    /* height: 600px; */
     text-align:center;
     padding: 60px;
     margin-bottom: auto
 }
 
 .contactoTitle{
-    height: 250px;
+    height: 160px;
 }
 
 .contactoTitle p {

@@ -34,3 +34,31 @@
     transition: all 0.2s ease;
   }
   
+  @media (max-width: 990px){
+/* 
+    .linkMenu{
+  background-color: red;
+  z-index: 0;
+  ;
+} */
+    .menuNav{
+      
+      background: linear-gradient(to bottom, #8EA4C8, #DEDCE4);
+      width: 20%;
+      padding-left: 7px;
+      filter: sepia(15%);
+      padding-top: 10px;
+      /* background-color: red; */
+      /* background: grey;
+      padding-left: 10px;
+      width: 22%; */
+    }
+  }
+
+  .btnToggle{
+    position: fixed;
+    right: 0;
+    margin: 10px;
+  }
+
+

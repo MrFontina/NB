@@ -1,10 +1,13 @@
 .title{
-    padding: 60px;
-    
-    
-    
+    padding: 60px;   
+}
+
+.aboutContainer{
+    width: 100%;
     
 }
+
+
 
 @media (min-width: 990px){
     .headerLeft{
@@ -17,7 +20,7 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    padding-top: 34px;
+    /* padding-top: 20px; */
     text-align:center;
     
     font-size: 20px;
@@ -27,8 +30,8 @@
 }
 
 .headerRight{
-        height: 700px;
-        padding-top: 34px;
+        height: 600px;
+        /* padding-top: 20px; */
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -43,7 +46,7 @@
    .headerLeft{
     
     height: 700px;
-    padding-top: 80px;
+    /* padding-top: 80px; */
     padding-left: 45px;
     padding-right: 45px;
    }
