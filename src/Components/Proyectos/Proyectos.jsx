@@ -4,6 +4,7 @@ import themeContext from "../../Storage/ThemeContext"
 import gif1 from "./musicstore.gif"
 import gif2 from "./juan.gif"
 import gif3 from "./nbgif.gif"
+import gif4 from "./gif4.gif"
 import "./proyectos.css"
 import image4 from "./e1.png"
 import image5 from "./e2.png"
@@ -46,6 +47,13 @@ function Proyectos() {
           about="Proyecto final para el curso de desarrollo web. Se utilizó HTML5, CSS3, Bootstrap y SASS. Es un sitio totalmente responsive."
           gif={gif3}
           link="https://nahuelbracchitta.netlify.app/index.html"
+    />
+    <Card title="Movies API"
+          img={image6}
+          poptitle="Movies API"
+          about="Desarrollo de sitio de peliculas como parte del bootcamp de Alkemy, lee un listado de una api, tiene un buscador y una seccion de agregar a favoritos."
+          gif={gif4}
+          link="https://alkemymoviesnb.netlify.app/"
     />
     
     </div>

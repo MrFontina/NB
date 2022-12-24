@@ -7,7 +7,7 @@
 }
 
 .containerProyectos{
-    height: 600px;
+    height: 1200px;
     padding-top: 40px;
 }
 
@@ -17,8 +17,8 @@
     }
 }
 
-@media (max-width: 770px){
+@media (max-width: 700px){
     .containerProyectos{
-        height: 1700px;
+        height: 2200px;
     }
 }
