@@ -5,6 +5,7 @@ import gif1 from "./musicstore.gif"
 import gif2 from "./juan.gif"
 import gif3 from "./nbgif.gif"
 import gif4 from "./gif4.gif"
+import gif5 from "./gif5.gif"
 import "./proyectos.css"
 import image4 from "./e1.png"
 import image5 from "./e2.png"
@@ -54,6 +55,13 @@ function Proyectos() {
           about="Desarrollo de sitio de peliculas como parte del bootcamp de Alkemy, lee un listado de una api, tiene un buscador y una seccion de agregar a favoritos."
           gif={gif4}
           link="https://alkemymoviesnb.netlify.app/"
+    />
+    <Card title="Drum Kit JS"
+          img={image5}
+          poptitle="Drum Kit JS"
+          about="JS app con sonidos de batería"
+          gif={gif5}
+          link="https://nbdrumkitjs.netlify.app/"
     />
     
     </div>
