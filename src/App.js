@@ -1,7 +1,7 @@
 import './index.css'
 
 import NavBar from "./Components/NavBar/NavBar";
-import About from "./Components/About/About";
+import Home from "./Components/Home/Home";
 import Proyectos from "./Components/Proyectos/Proyectos";
 import Contacto from "./Components/Contacto/Contacto";
 import Footer from "./Components/Footer/Footer";
@@ -22,7 +22,7 @@ function App() {
     <BrowserRouter>
     <NavBar/>
     <Routes>
-    <Route path="/" element={<About/> } />  
+    <Route path="/" element={<Home/> } />  
     <Route path="/proyectos"  element={<Proyectos/>} />  
     <Route path="/contacto"  element={<Contacto/>} />  
     </Routes>
