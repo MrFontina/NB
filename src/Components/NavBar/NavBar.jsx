@@ -27,7 +27,7 @@ function NavBar() {
             <div className="dark-mode-slider" >{darkMode ? "🌙" : "🔆"}</div>
           </button>
         </label>
-            <Link to="/" className="nav-link active linkMenu" style={{ color: darkMode ? "black" : "white" }} aria-current="page" >Home</Link>
+            <Link to="/about" className="nav-link active linkMenu" style={{ color: darkMode ? "black" : "white" }} aria-current="page" >Sobre mi</Link>
             <Link to="/proyectos" className="nav-link linkMenu" style={{ color: darkMode ? "black" : "white" }}>Proyectos</Link>
             <Link to="/contacto" className="nav-link linkMenu" style={{ color: darkMode ? "black" : "white" }}>Contacto</Link>
           </div>

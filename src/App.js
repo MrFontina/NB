@@ -4,6 +4,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import Home from "./Components/Home/Home";
 import Proyectos from "./Components/Proyectos/Proyectos";
 import Contacto from "./Components/Contacto/Contacto";
+import About from './Components/About/About';
 import Footer from "./Components/Footer/Footer";
 
 import { ThemeContextProvider } from "./Storage/ThemeContext";
@@ -25,8 +26,9 @@ function App() {
     <Route path="/" element={<Home/> } />  
     <Route path="/proyectos"  element={<Proyectos/>} />  
     <Route path="/contacto"  element={<Contacto/>} />  
+    <Route path="/about" element={<About/>} />
     </Routes>
-    <Footer/>
+    {/* <Footer/> */}
     </BrowserRouter> 
     </ThemeContextProvider>    
     </>
