@@ -16,7 +16,7 @@ import image6 from "./e3.png"
 
 function Proyectos() {
 
-      const { darkMode, darkest, gradient34, gradient45 } = useContext(themeContext)
+      const { darkMode, darkest, gradient34 } = useContext(themeContext)
 
       return (
             <>
