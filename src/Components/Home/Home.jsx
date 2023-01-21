@@ -11,18 +11,20 @@ import perfil from "./perfil.jpg"
 
 function Home() {
 
-  const { darkMode, gradient34, gradient45, darkest } = useContext(themeContext)
+  const { darkMode, gradient34, darkest } = useContext(themeContext)
 
 
   return (
     
-      <div className="container.fluid about" style={{ background: darkMode ? gradient45 : darkest }} >
-       
-          <div className="containerTyped">
+      <div className=" about" style={{ background: darkMode ? gradient34 : darkest }} >
+          
+            <div className="containerTyped">
             <h3>me llamo Nahuel Bracchitta</h3><br />
             <h4  className="typed">soy desarrollador frontend</h4>
           </div>
           <img src={perfil}  className="perfil" alt="" />
+          
+          
             
           </div>
         

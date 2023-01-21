@@ -25,7 +25,7 @@ function Card(props){
         <div className="box d-flex flex-column"  onClick={cardSwitch} style={{background: darkMode? gradient51 : "lightgrey"}}>
         <h2>{props.title}</h2>
         <img src={props.img} alt="" className="cardImg"></img>
-        <button type="button" class="btn btn-success">Ver más</button>
+        <button type="button" className="btn btn-success">Ver más</button>
         </div>        
          <div id="popup1" className="overlay" style={{display: cardState? "none" : null, }}>
 	    <div className="popup d-flex flex-column align-items-center" style={{backgroundColor: darkMode? "lightblue" : "lightgrey"}}>
@@ -34,9 +34,11 @@ function Card(props){
 		<div className="content">
             <p>
                 {props.about}
-            </p>			
+            </p>
+            <p >LINK: <a href={props.link} target="_blank" style={{textAlign:"center"}} rel='noreferrer'  >{props.link}</a> </p>            			
+            <p >CÓDIGO: <a href={props.git} target="_blank" style={{textAlign:"center"}} rel='noreferrer'  >{props.git}</a> </p>            			
 		</div>
-        <a href={props.link} style={{textAlign:"center"}}>
+        <a href={props.link} target="_blank" style={{textAlign:"center"}} rel='noreferrer'>
           <img src={props.gif} alt=""></img>  
         </a>
         

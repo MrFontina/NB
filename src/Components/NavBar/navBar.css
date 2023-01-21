@@ -1,8 +1,8 @@
-.navBarClass{
+/* .navBarClass{
   border-bottom: 1px solid #454854;
   
   
-}
+} */
 
 .modo {
     display: flex;
@@ -32,6 +32,14 @@
     position: relative;
     transform: translateX(0px);
     transition: all 0.2s ease;
+  }
+
+  .hov:hover{
+    color: grey !important;
+  }
+
+  @media(min-width: 991){
+    
   }
   
   @media (max-width: 990px){

@@ -1,9 +1,13 @@
-.proyectos{
+.proyectosTitle{
     text-align:center;
     height:160px;
     padding: 60px;
     margin-bottom: auto;
     z-index: 1
+}
+
+.proyectosTitle p {
+    padding-top: 40px;
 }
 
 .containerProyectos{

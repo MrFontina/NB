@@ -3,9 +3,21 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    height: 100vh;
     text-transform: uppercase;
 }
+
+
+.containerHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top: 200px;
+    
+}
+
 .perfil{
     height: 300px;
     margin-left: 50px;
@@ -13,9 +25,7 @@
     
 }
 
-/* .containerTyped{
-    display: inline-block;
-} */
+
 .typed {
     overflow: hidden;
     white-space: nowrap;
