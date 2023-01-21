@@ -84,6 +84,19 @@
         /* align-items: center */
 } 
 
+
+@media (max-width: 780px){
+    .about{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 600px;
+    }
+    .perfil{
+        margin-left: 0px;
+    }
+}
+
 @media (max-width: 470px) {
     .headerRight {
         align-items: flex-start;        
@@ -105,3 +118,30 @@
         padding-right: 45px;
     }
  }
+
+ @media (max-width: 420px){
+    .perfil{
+        height: 250px;
+    }
+    .containerTyped h3{
+        font-size: 20px;        
+    }
+    .containerTyped h4{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 350px){
+    .perfil{
+        height: 250px;
+    }
+    .containerTyped h3{
+        font-size: 18px;        
+    }
+    .containerTyped h4{
+        font-size: 16px;
+    }
+    .perfil{
+        height: 220px;
+    }
+}

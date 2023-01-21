@@ -138,6 +138,8 @@
   .popup .content {
     max-height: 50%;
     overflow: auto;
+
+    
   }
   
   @media screen and (max-width: 700px){
@@ -159,3 +161,14 @@
     }
   }
  
+  @media (max-width: 580px){
+    .popup{
+      height: 700px;
+    }
+  }
+
+  @media (max-width: 470px){
+    .popup{
+      font-size: 15px;
+    }
+  }

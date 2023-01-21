@@ -32,6 +32,7 @@ function NavBar() {
               <Link to="/about" className="nav-link active linkMenu hov" style={{ color: darkMode ? "black" : "white" }} aria-current="page" >Sobre mi</Link>
               <Link to="/proyectos" className="nav-link linkMenu hov" style={{ color: darkMode ? "black" : "white" }}>Proyectos</Link>
               <Link to="/contacto" className="nav-link linkMenu hov" style={{ color: darkMode ? "black" : "white" }}>Contacto</Link>
+              <Link to="/" className="nav-link linkMenu hov" style={{ color: darkMode ? "black" : "white" }}>Home</Link>
             </div>
           </div>
         </div>

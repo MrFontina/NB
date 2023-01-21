@@ -38,9 +38,9 @@
     color: grey !important;
   }
 
-  @media(min-width: 991){
+  /* @media(min-width: 991){
     
-  }
+  } */
   
   @media (max-width: 990px){
 /* 
@@ -49,13 +49,19 @@
   z-index: 0;
   ;
 } */
+
+    .navLeft{
+      position: relative;
+      
+      bottom: 50px;
+    }
     .menuNav{
       
       background: linear-gradient(to bottom, #8EA4C8, #DEDCE4);
-      width: 20%;
+      width: 100%;
       padding-left: 7px;
       filter: sepia(15%);
-      padding-top: 10px;
+      /* padding-top: 10px; */
       /* background-color: red; */
       /* background: grey;
       padding-left: 10px;
