@@ -1,7 +1,10 @@
 .contacto{
     /* height: 600px; */
     text-align:center;
-    padding: 60px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
     margin-bottom: auto
 }
 
@@ -38,5 +41,18 @@
     }
     .iconContacto{
         height: 34px;
+    }
+}
+
+@media (max-width: 333px){
+    .contacto{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .linksContacto h5{
+        font-size: 16px;
+    }
+    .iconContacto{
+        height: 30px;
     }
 }

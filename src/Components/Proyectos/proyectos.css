@@ -1,3 +1,5 @@
+
+
 .proyectosTitle{
     text-align:center;
     height:160px;
@@ -23,8 +25,12 @@
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 702px){
+    .Proyectos{
+        height: 2750px;
+    }
     .containerProyectos{
         height: 2200px;
     }
 }
+

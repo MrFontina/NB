@@ -20,7 +20,7 @@ function Proyectos() {
 
       return (
             <>
-                  <div className="contenedorProyectos" style={{ background: darkMode ? gradient34 : darkest }}>
+                  <div className="Proyectos" style={{ background: darkMode ? gradient34 : darkest }}>
                         <div className="proyectosTitle" >
                               <h2>PROYECTOS</h2>
                               {/* <p>Estas fueron mis primeras experiencias aprendiendo a desarrollar. Pronto subiré proyectos nuevos.</p> */}

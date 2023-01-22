@@ -94,6 +94,11 @@
 
 
 @media (max-width: 990px){
+
+    .aboutC{
+        height: 850px;
+    }
+
     .aboutContainer{
         flex-direction: column;
         padding-bottom: 30px;
@@ -106,7 +111,28 @@
     }
 
 }
+
+@media (max-width: 815px){
+    .aboutC{
+        height: 900px;
+    }
+}
+@media (max-width: 610px){
+    .aboutC{
+        height: 1050px;
+    }
+}
+@media (max-width: 18px){
+    .aboutC{
+        height: 1100px;
+    }
+}
+
+
 @media (max-width: 470px){
+    .aboutC{
+        height: 900px;
+    }
     .description{
         font-size: 16px;
         text-align: center;
