@@ -3,6 +3,8 @@ import { useContext } from "react"
 import themeContext from "../../Storage/ThemeContext"
 import "./home.css"
 import perfil from "./perfil.jpg"
+
+
 // import htmlIcon from "./icons/html5.png"
 // import cssIcon from "./icons/css3.png"
 // import jsIcon from "./icons/js.png"
