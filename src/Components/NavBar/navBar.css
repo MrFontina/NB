@@ -50,17 +50,21 @@
   ;
 } */
 
+ 
+
     .navLeft{
-      position: relative;
-      
-      bottom: 50px;
+      display: none;
     }
     .menuNav{
       
       background: linear-gradient(to bottom, #8EA4C8, #DEDCE4);
       width: 100%;
-      padding-left: 7px;
+      margin-top: 35px;
+      /* padding-left: 7px; */
       filter: sepia(15%);
+      width: 100px;
+      text-align: left;
+      padding-left: 10px;
       /* padding-top: 10px; */
       /* background-color: red; */
       /* background: grey;
