@@ -28,14 +28,24 @@ function Proyectos() {
 
                         <div className="container-fluid d-flex flex-wrap containerProyectos" >
 
-                              <Card title="Movies API"
+                              <Card title="WindBnb"
                                     img={image6}
-                                    poptitle="Movies API"
-                                    about="Desarrollo de sitio de peliculas como parte del bootcamp de Alkemy, lee un listado de una api, tiene un buscador y una seccion de agregar a favoritos."
-                                    gif={gif4}
-                                    link="https://alkemymoviesnb.netlify.app/"
-                                    git="https://github.com/MrFontina/AlkemyMovies2"
+                                    poptitle="WindBnb"
+                                    about="Sitio en proceso estilo AirBnb. Copiado a partir de un diseño de Figma."
+                                    gif={gif6}
+                                    link="https://nbwindbnb.netlify.app/"
+                                    git="https://github.com/MrFontina/windbnb"
                               />
+
+                              <Card title="React Ecommerce"
+                                    img={image4}
+                                    poptitle="React Commerce"
+                                    about="Proyecto final para el curso de React JS. El objeto fue hacer un Ecommerce, con un carrito totalmente funcional, y que se genere una orden de compra que se envie a una base de datos (Firebase)."
+                                    gif={gif1}
+                                    link="https://reactecommercebracchitta.netlify.app/"
+                                    git="https://github.com/MrFontina/reactBracchitta"
+                              />
+
 
                               <Card title="Music Biography"
                                     img={image5}
@@ -46,24 +56,16 @@ function Proyectos() {
                                     git="https://github.com/MrFontina/proyectofinal"
                               />
 
-                              <Card title="WindBnb"
+                              <Card title="Movies API"
                                     img={image6}
-                                    poptitle="WindBnb"
-                                    about="Sitio en proceso estilo AirBnb. Copiado a partir de un diseño de Figma."
-                                    gif={gif6}
-                                    link="https://nbwindbnb.netlify.app/"
-                                    git="https://github.com/MrFontina/windbnb"
+                                    poptitle="Movies API"
+                                    about="Desarrollo de sitio de peliculas como parte del bootcamp de Alkemy, lee un listado de una api, tiene un buscador y una seccion de agregar a favoritos."
+                                    gif={gif4}
+                                    link="https://alkemymoviesnb.netlify.app/"
+                                    git="https://github.com/MrFontina/AlkemyMovies2"
                               />
 
 
-                              <Card title="React Ecommerce"
-                                    img={image4}
-                                    poptitle="React Commerce"
-                                    about="Proyecto final para el curso de React JS. El objeto fue hacer un Ecommerce, con un carrito totalmente funcional, y que se genere una orden de compra que se envie a una base de datos (Firebase). No se tuvo en cuenta los estilos."
-                                    gif={gif1}
-                                    link="https://reactecommercebracchitta.netlify.app/"
-                                    git="https://github.com/MrFontina/reactBracchitta"
-                              />
 
                               <Card title="JS Ecommerce"
                                     img={image6}
