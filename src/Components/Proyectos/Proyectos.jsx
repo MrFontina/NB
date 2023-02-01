@@ -28,15 +28,6 @@ function Proyectos() {
 
                         <div className="container-fluid d-flex flex-wrap containerProyectos" >
 
-                              <Card title="WindBnb"
-                                    img={image6}
-                                    poptitle="WindBnb"
-                                    about="Sitio en proceso estilo AirBnb. Copiado a partir de un diseño de Figma."
-                                    gif={gif6}
-                                    link="https://nbwindbnb.netlify.app/"
-                                    git="https://github.com/MrFontina/windbnb"
-                              />
-
                               <Card title="React Ecommerce"
                                     img={image4}
                                     poptitle="React Commerce"
@@ -44,6 +35,15 @@ function Proyectos() {
                                     gif={gif1}
                                     link="https://reactecommercebracchitta.netlify.app/"
                                     git="https://github.com/MrFontina/reactBracchitta"
+                              />
+
+                              <Card title="WindBnb"
+                                    img={image6}
+                                    poptitle="WindBnb"
+                                    about="Sitio en proceso estilo AirBnb. Copiado a partir de un diseño de Figma."
+                                    gif={gif6}
+                                    link="https://nbwindbnb.netlify.app/"
+                                    git="https://github.com/MrFontina/windbnb"
                               />
 
 
