@@ -23,16 +23,16 @@ export function ThemeContextProvider(props){
     const gradient51 = "linear-gradient(to bottom, #C7CDC5, #8EA4C8)";
 
 
-    const [darkMode, setDarkMode] = useState(false)
+    const [darkMode, setDarkMode] = useState(true)
  
 
     useEffect(() => {
       const json = localStorage.getItem("site-dark-mode");
       const currentMode = JSON.parse(json);
       if (currentMode) {
-        setDarkMode(true);
-      } else {
         setDarkMode(false);
+      } else {
+        setDarkMode(true);
       }
     }, []);
   
