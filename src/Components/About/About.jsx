@@ -23,13 +23,13 @@ function About() {
       <div className='aboutContainer'>
         <div className='description'>
         <p className="about-text">
-        Hola, soy un diseñador frontend apasionado por el mundo digital y la música. Siempre estoy en busca de nuevas formas de aprender y mejorar mis habilidades para crear proyectos innovadores y atractivos.
+        Hola, soy un diseñador <strong>frontend</strong> apasionado por el mundo digital y la música. Siempre estoy en busca de nuevas formas de aprender y mejorar mis habilidades para crear proyectos innovadores y atractivos.
       </p>
       <p className="about-text">
         Aunque no tengo experiencia profesional en diseño web, he creado varios proyectos personales y colaborado en proyectos con amigos y familiares. En cada uno de ellos, he disfrutado explorando diferentes técnicas de diseño y codificación para lograr el resultado que imaginé.
       </p>
       <p className="about-text">
-        Además de ser diseñador frontend, soy un músico de jazz profesional. Creo que mi experiencia en la música me ha ayudado a desarrollar habilidades como la creatividad, el trabajo en equipo y la atención al detalle, que son valiosas en el diseño web.
+        Además de ser diseñador frontend, soy un <strong>músico</strong> de jazz profesional. Creo que mi experiencia en la música me ha ayudado a desarrollar habilidades como la creatividad, el trabajo en equipo y la atención al detalle, que son valiosas en el diseño web.
       </p>
       <p className="about-text">
         Mi objetivo como diseñador frontend es crear interfaces intuitivas y atractivas que sean fáciles de usar para los usuarios finales. Me esfuerzo por mantenerme actualizado con las últimas tendencias y técnicas en diseño y desarrollo web para poder crear experiencias digitales que sean relevantes y efectivas.
@@ -49,31 +49,31 @@ function About() {
           <div className="icons">
             
               <div className='icon'>
-                <p>HTML</p>
+                <p><strong>HTML</strong></p>
                 <img src={htmlIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
               </div>
               <div className='icon'>
-                <p>CSS</p>
+                <p><strong>CSS</strong></p>
                 <img src={cssIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
               </div>
               <div className='icon'>
-                <p>JAVASCRIPT</p>
+                <p><strong>JAVASCRIPT</strong></p>
                 <img src={jsIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
               </div>
               <div className='icon'>
-                <p>REACT</p>
+                <p><strong>REACT</strong></p>
                 <img src={reactIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
               </div>
               <div className='icon'>
-                <p>BOOTSTRAP</p>
+                <p><strong>BOOTSTRAP</strong></p>
                 <img src={bootstrapIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
               </div>
               <div className='icon'>
-                <p>GIT</p>
+                <p><strong>GIT</strong></p>
                 <img src={gitIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
               </div>
               <div className='icon'>
-                <p>SAAS</p>
+                <p><strong>SAAS</strong></p>
                 <img src={saasIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
               </div>
             
