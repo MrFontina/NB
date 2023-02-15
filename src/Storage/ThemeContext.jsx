@@ -30,9 +30,9 @@ export function ThemeContextProvider(props){
       const json = localStorage.getItem("site-dark-mode");
       const currentMode = JSON.parse(json);
       if (currentMode) {
-        setDarkMode(false);
-      } else {
         setDarkMode(true);
+      } else {
+        setDarkMode(false);
       }
     }, []);
   
