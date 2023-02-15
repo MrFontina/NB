@@ -1,6 +1,6 @@
 .aboutC{
     
-    height: 100vh;
+    
     width: 100%;
     
 }
@@ -28,7 +28,7 @@
     
     text-align: justify;
     
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 200px;
     padding-right: 200px;
     
@@ -74,11 +74,11 @@
     
 }
 
-.icons2{
-    /* background-color: brown; */
+/* .icons2{
+   
     display: flex;
     padding-top: 40px;
-}
+} */
 
 
 .icon{
@@ -98,9 +98,7 @@
 
 @media (max-width: 990px){
 
-    .aboutC{
-        height: 850px;
-    }
+    
 
     .aboutContainer{
         flex-direction: column;
@@ -119,27 +117,16 @@
 
 }
 
-@media (max-width: 815px){
-    .aboutC{
-        height: 900px;
-    }
-}
+
 @media (max-width: 610px){
     .aboutC{
         height: 1050px;
     }
 }
-@media (max-width: 18px){
-    .aboutC{
-        height: 1100px;
-    }
-}
 
 
 @media (max-width: 470px){
-    .aboutC{
-        height: 900px;
-    }
+   
     .description{
         font-size: 16px;
         text-align: center;
