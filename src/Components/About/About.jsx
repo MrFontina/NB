@@ -45,7 +45,7 @@ function About() {
 
 
         <div className='containerIcons'>
-          <p className='iconsSubtitle'>Las tecnologías que utilizo actualmente son:</p>
+          <p className='iconsSubtitle'>Estas son algunas de las tecnologías que domino:</p>
           <div className="icons">
             
               <div className='icon'>
