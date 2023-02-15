@@ -22,19 +22,24 @@ function About() {
       </div>
       <div className='aboutContainer'>
         <div className='description'>
-          <p>
-            Hola, soy un diseñador frontend apasionado por el mundo digital y la música. <br/>Siempre estoy en busca de nuevas formas de aprender y mejorar mis habilidades para crear proyectos innovadores y atractivos.<br/>
-          
-            Aunque no tengo experiencia profesional en diseño web, he creado varios proyectos personales y colaborado en proyectos con amigos y familiares.<br/> En cada uno de ellos, he disfrutado explorando diferentes técnicas de diseño y codificación para lograr el resultado que imaginé.<br/>
-          
-            Además de ser diseñador frontend, soy un músico de jazz profesional. <br/>Creo que mi experiencia en la música me ha ayudado a desarrollar habilidades como la creatividad, el trabajo en equipo y la atención al detalle, que son valiosas en el diseño web.<br/>
-          
-            Mi objetivo como diseñador frontend es crear interfaces intuitivas y atractivas que sean fáciles de usar para los usuarios finales.<br/> Me esfuerzo por mantenerme actualizado con las últimas tendencias y técnicas en diseño y desarrollo web para poder crear experiencias digitales que sean relevantes y efectivas.<br/>
-          
-            Cuando no estoy diseñando o tocando música, me gusta explorar nuevas tecnologías y aprender cosas nuevas. <br/>También disfruto de la lectura y pasar tiempo al aire libre con amigos.<br/>
-          
-            Estoy emocionado de compartir mi trabajo y experiencia contigo, y espero poder ayudarte a crear una experiencia digital impresionante. <br/>Si tienes alguna pregunta o estás interesado en trabajar juntos, ¡no dudes en ponerte en contacto conmigo!<br/>
-          </p>
+        <p className="about-text">
+        Hola, soy un diseñador frontend apasionado por el mundo digital y la música. Siempre estoy en busca de nuevas formas de aprender y mejorar mis habilidades para crear proyectos innovadores y atractivos.
+      </p>
+      <p className="about-text">
+        Aunque no tengo experiencia profesional en diseño web, he creado varios proyectos personales y colaborado en proyectos con amigos y familiares. En cada uno de ellos, he disfrutado explorando diferentes técnicas de diseño y codificación para lograr el resultado que imaginé.
+      </p>
+      <p className="about-text">
+        Además de ser diseñador frontend, soy un músico de jazz profesional. Creo que mi experiencia en la música me ha ayudado a desarrollar habilidades como la creatividad, el trabajo en equipo y la atención al detalle, que son valiosas en el diseño web.
+      </p>
+      <p className="about-text">
+        Mi objetivo como diseñador frontend es crear interfaces intuitivas y atractivas que sean fáciles de usar para los usuarios finales. Me esfuerzo por mantenerme actualizado con las últimas tendencias y técnicas en diseño y desarrollo web para poder crear experiencias digitales que sean relevantes y efectivas.
+      </p>
+      <p className="about-text">
+        Cuando no estoy diseñando o tocando música, me gusta explorar nuevas tecnologías y aprender cosas nuevas. También disfruto de la lectura y los deportes al aire libre.
+      </p>
+      <p className="about-text">
+        Estoy emocionado de compartir mi trabajo y experiencia contigo, y espero poder ayudarte a crear una experiencia digital impresionante. Si tienes alguna pregunta o estás interesado en trabajar juntos, ¡no dudes en ponerte en contacto conmigo!
+      </p>
         </div>
 
 
@@ -59,9 +64,6 @@ function About() {
                 <p>REACT</p>
                 <img src={reactIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
               </div>
-            </div>
-            <div className='icons2'>
-
               <div className='icon'>
                 <p>BOOTSTRAP</p>
                 <img src={bootstrapIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
@@ -74,10 +76,15 @@ function About() {
                 <p>SAAS</p>
                 <img src={saasIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
               </div>
-
-
-
             </div>
+            
+            {/* <div className='icons2'>
+
+              
+
+
+
+            </div> */}
 
           </div>
         </div>
