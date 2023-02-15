@@ -47,7 +47,7 @@ function About() {
         <div className='containerIcons'>
           <p className='iconsSubtitle'>Las tecnologías que utilizo actualmente son:</p>
           <div className="icons">
-            <div className='icons1'>
+            
               <div className='icon'>
                 <p>HTML</p>
                 <img src={htmlIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
@@ -76,7 +76,7 @@ function About() {
                 <p>SAAS</p>
                 <img src={saasIcon} style={{ height: '50px', margin: '10px' }} alt="" className="icon" />
               </div>
-            </div>
+            
             
             {/* <div className='icons2'>
 

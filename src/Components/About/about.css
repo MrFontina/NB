@@ -44,11 +44,12 @@
     ;
     
     padding-top: 50px;   
-    padding-left: 200px;
+    
 }
 
 .iconsSubtitle{
     font-size: 20px;
+    text-align: center;
 }
 
 .icons{
@@ -56,23 +57,18 @@
     flex-wrap: wrap; */
     /* background-color: yellow; */
     display: flex;
-    flex-direction: column;
-    width: 80%;
+    flex-wrap: wrap;
     
-    
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
     padding-top: 12px;
    
     
 }
 
-.icons1{
-    /* background-color: blueviolet; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 10px;
-    
-}
+
 
 /* .icons2{
    
@@ -114,15 +110,18 @@
         padding-left: 100px;
         padding-right: 100px;
     }
+    .icons{
+        padding-left: 0;
+    }
 
 }
 
-
-@media (max-width: 610px){
-    .aboutC{
-        height: 1050px;
+@media (max-width: 659px){
+    .icons{
+        flex-direction: column;
     }
 }
+
 
 
 @media (max-width: 470px){
@@ -134,7 +133,7 @@
         padding-left: 40px;
     }
     .iconsSubtitle{
-        font-size: 16px;
+        font-size: 17px;
     }
 }
 
