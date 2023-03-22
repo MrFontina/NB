@@ -3,7 +3,7 @@ import { useContext } from "react"
 import themeContext from "../../Storage/ThemeContext"
 import gif1 from "./musicstore.gif"
 // import gif2 from "./juan.gif"
-import gif3 from "./nbgif.gif"
+// import gif3 from "./nbgif.gif"
 import gif4 from "./gif4.gif"
 // import gif5 from "./gif5.gif"
 import gif6 from "./gif6.gif"
@@ -11,6 +11,8 @@ import "./proyectos.css"
 import image4 from "./e1.png"
 import image5 from "./e2.png"
 import image6 from "./e3.png"
+import gifProSalud from './prosalud.gif'
+import nbJazz from './nbjazz.gif'
 
 
 
@@ -28,6 +30,25 @@ function Proyectos() {
 
                         <div className="container-fluid d-flex flex-wrap containerProyectos" >
 
+                        <Card       title="ProSaludWeb"
+                                    img={image6}
+                                    poptitle="ProSaludWeb"
+                                    about="Web institucional para una empresa de medicina mexicana. Desarrollado en en un equipo de dos diseñadoras UX/UI y dos desarrolladores REACT "
+                                    gif={gifProSalud}
+                                    link="https://pro-salud-medical.vercel.app/"
+                                    git="https://github.com/MrFontina/ProSaludMedical"
+                              />
+
+
+                        <Card       title="Nahuel Bracchitta jazz player"
+                                    img={image6}
+                                    poptitle="Music Biography"
+                                    about="Mi sitio  personal sobre mi carrera musical. Totalmente responsive. Se utilizó React, HTML5, CSS3, Bootstrap y SASS."
+                                    gif={nbJazz}
+                                    link="https://nb-jazz.vercel.app/"
+                                    git="https://github.com/MrFontina/NBJazz"
+                              />
+
                               <Card title="React Ecommerce"
                                     img={image4}
                                     poptitle="React Commerce"
@@ -37,14 +58,7 @@ function Proyectos() {
                                     git="https://github.com/MrFontina/reactBracchitta"
                               />
 
-                              <Card title="Music Biography"
-                                    img={image6}
-                                    poptitle="Music Biography"
-                                    about="Sitio totalmente responsive. Se utilizó HTML5, CSS3, Bootstrap y SASS."
-                                    gif={gif3}
-                                    link="https://nahuelbracchitta.netlify.app/index.html"
-                                    git="https://github.com/MrFontina/proyectofinal"
-                              />
+                              
 
                               <Card title="Movies API"
                                     img={image5}
