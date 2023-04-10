@@ -45,7 +45,7 @@ function Proyectos() {
                                     poptitle="Music Biography"
                                     about="Mi sitio  personal sobre mi carrera musical. Totalmente responsive. Se utilizó React, HTML5, CSS3, Bootstrap y SASS."
                                     gif={nbJazz}
-                                    link="https://nb-jazz.vercel.app/"
+                                    link="https://www.nahuelbracchitta.com.ar/"
                                     git="https://github.com/MrFontina/NBJazz"
                               />
 
